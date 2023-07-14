@@ -13,9 +13,12 @@ public class Foreach {
             System.out.println(name);
         }
 
-        System.out.println("Better");
+        System.out.println("\nBetter");
         approved.forEach((name) -> {
             System.out.println(name + "!!!");
         });
+
+        System.out.println("\nMethod reference");
+        approved.forEach(System.out::println);
     }
 }
