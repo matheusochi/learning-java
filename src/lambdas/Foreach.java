@@ -20,5 +20,15 @@ public class Foreach {
 
         System.out.println("\nMethod reference");
         approved.forEach(System.out::println);
+
+        System.out.println("\nUsing custom method");
+        approved.forEach((name) -> print(name));
+
+        System.out.println("\nUsing custom method + method reference");
+        approved.forEach(Foreach::print);
+    }
+
+    static void print(String nome) {
+        System.out.println("Oi! Meu nome é " + nome);
     }
 }
