@@ -10,4 +10,8 @@ public class Product {
         this.price = price;
         this.discount = discount;
     }
+
+    public double getFinalPrice() {
+        return this.price - this.discount;
+    }
 }
