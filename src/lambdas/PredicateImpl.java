@@ -2,7 +2,7 @@ package lambdas;
 
 import java.util.function.Predicate;
 
-public class PredicateClass {
+public class PredicateImpl {
     public static void main(String[] args) {
         Predicate<Product> hasDiscount = (product -> product.discount > 0);
 
