@@ -8,4 +8,8 @@ public class Student {
         this.name = name;
         this.grade = grade;
     }
+
+    public String toString() {
+        return name + " tem nota " + grade;
+    }
 }
