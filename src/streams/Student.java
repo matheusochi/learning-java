@@ -3,8 +3,8 @@ package streams;
 import java.util.Objects;
 
 public class Student {
-    final String name;
-    final double grade;
+    public final String name;
+    public final double grade;
 
     public Student(String name, double grade) {
         this.name = name;
