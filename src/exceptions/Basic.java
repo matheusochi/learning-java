@@ -9,7 +9,8 @@ public class Basic {
         try {
             printStudentName(s1);
         } catch(Exception e) {
-            System.out.println("Ocorreu um erro ao tentar imprimir o nome do usuário");
+            System.out.println("Ocorreu um erro ao tentar imprimir o nome do " +
+                    "usuário");
         }
 
         try {
